@@ -1,8 +1,7 @@
--- 계정 생성
+-- 계정
 -- dhkwak/1234
 
--- 명령 프롬프트 (CMD) 실행
-
+-- cmd
 -- sqlplus / as sysdba
 
 -- Oracle이 12c 버전 이상인 경우

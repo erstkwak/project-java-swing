@@ -10,7 +10,7 @@ public class DB {
 
 	private static final String driver = "oracle.jdbc.driver.OracleDriver";
 	private static final String url    = "jdbc:oracle:thin:@localhost:1521:XE";
-	private static final String id     = "dhkwak";
+	private static final String id     = "exam01";
 	private static final String pw     = "1234";
 	
 	private static Connection conn = null;
