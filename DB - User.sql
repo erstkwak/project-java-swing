@@ -1,0 +1,16 @@
+-- 계정
+-- dhkwak/1234
+
+-- cmd
+-- sqlplus / as sysdba
+
+-- Oracle이 12c 버전 이상인 경우
+-- ALTER SESSION SET "_ORACLE_SCRIPT"=TRUE;
+
+CREATE USER dhkwak IDENTIFIED BY 1234;
+
+GRANT CREATE SESSION TO dhkwak;
+
+GRANT CONNECT, RESOURCE TO dhkwak;
+
+ALTER USER dhkwak DEFAULT TABLESPACE USERS QUOTA UNLIMITED ON USERS;
